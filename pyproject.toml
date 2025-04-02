@@ -2,30 +2,17 @@
 name = "flask-openapi-validator"
 version = "0.1.0"
 description = "A validation package for Flask requests"
-authors = ["Ng Jun Siang <ngjunsiang@gmail.com>"]
+authors = [
+    { name = "Ng Jun Siang", email = "ngjunsiang@gmail.com" }
+]
 requires-python = ">=3.11"
 dependencies = [
-    "openapi-spec-validator==0.7.1",
+    "flask==3.1.0",
+    "openapi-spec-validator==0.7.1"
 ]
 keywords = ["flask", "openapi", "openapi-spec-validator"]
-license = {text = "Apache-2.0"}
+license = "Apache-2.0"
 readme = "README.md"
 
 [project.urls]
 repository = "https://github.com/nyjc-computing/flask-openapi-validator"
-"Bug Tracker" = "https://github.com/nyjc-computing/flask-openapi-validator/issues"
-
-[tool.poetry]
-name = "flask-openapi-validator"
-version = "0.1.0"
-description = "A validation package for Flask requests"
-authors = ["Ng Jun Siang <ngjunsiang@gmail.com>"]
-dependencies = [
-    "openapi-spec-validator>=0.7.1"
-]
-python = ">=3.11"
-classifiers = [
-    "Development Status :: 4 - Beta",
-    "Intended Audience :: Developers",
-    "Operating System :: OS Independent",
-]
