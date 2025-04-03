@@ -175,4 +175,5 @@ cython_debug/
 
 # Replit
 .replit
+replit.nix
 uv.lock
